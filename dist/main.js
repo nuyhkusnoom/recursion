@@ -1,1 +1,1 @@
-console.log("blah");
+(()=>{"use strict";console.log(function(t){let n,o=[];for(let u=0;u<t;u++)0===u?o.push(0):1===u?o.push(1):(n=o[u-1]+o[u-2],o.push(n));return o}(10)),console.log(function t(n,o=[0,1]){return 1===n?[0]:2===n?[0,1]:n===o.length?o:(o.push(o.at(-1)+o.at(-2)),t(n,o))}(10))})();
